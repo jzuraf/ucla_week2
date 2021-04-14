@@ -1,8 +1,76 @@
 body {
 	background-image: url('../images/background.jpg');
-	font-family: sans-serif;
+	font-family: 'Courier New', monospace;
 
-	img {
-		width: 100%;
-	}
+}
+
+/* ---------- font ---------- */
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+ol {
+	color: white;
+}
+
+ul {
+	color: white;
+}
+
+
+/* ---------- columns ---------- */
+
+.column {
+  float: left;
+	padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ---------- images ---------- */
+
+/*img {
+	width: 75%;
+}*/
+
+.image {
+	width: 75%;
+}
+
+
+/* ---------- video ---------- */
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
 }
